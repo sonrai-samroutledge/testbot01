@@ -1,0 +1,8 @@
+version: 2020-04-22
+type: Prevention
+title: Albert Test
+description: albert tet custom bot
+cloud: AWS
+operation: ATTACH_AWS_SCP
+authorName: Beavor Lockett
+authorEmail: albertlockett@sonraisecurity.com
