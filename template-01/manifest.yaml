@@ -23,7 +23,7 @@ fields:
 
       # path within result to use when populating search
       # if not present, use ["data", <first field>, "items"]
-      path: ["data", "Users", "items"],
+      path: ["data", "Users", "items"]
 
       # field from result to use as field value
       # if not present, default to srn
