@@ -32,4 +32,19 @@ fields:
       # if not present, default to [<valueField>]
       labelFields: ["name", "srn"]
 
+  - name: "field2"
+    # if required field is not present, assume optional
+    required: true 
+
+    # types can be text, select, checkbox (boolean)?
+    type: "select"
+
+
+  - required: true 
+    # types can be text, select, checkbox (boolean)?
+    type: "select"
+
+  - name: "field 5"
+  - name: "field 6"
+    type: "fart"
 
