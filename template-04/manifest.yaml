@@ -1,0 +1,41 @@
+# title of ticket template is required
+title: "Template 4"
+
+# The next fields are optional:
+description: "Descrpition of the template"
+version: "0.0.1"
+authorName: "albert"
+authorEmail: "albert.lockett@sonraisecurity.com"
+
+# one or more fields must be specified
+fields:
+  - name: "field all select"
+    required: true 
+    type: "select"
+    select:
+      search: "{ Users { items { srn name } } }"
+      path: ["data", "Users", "items"]
+      valueField: "srn"
+      labelFields: ["name", "srn"]
+
+  - name: "field no select"
+    required: true
+    type: "select"
+    select:
+      search: "{ Users { items { srn } } }"
+
+  - name: "text input required"
+    required: true
+    type: "text"
+
+  - name: "text input not required"
+    type: "text"
+    required: false
+
+  - name: "checkbox required"
+    required: true
+    type: "checkbox"
+
+
+  - name: "checkbox not required"
+    type: "checkbox"
