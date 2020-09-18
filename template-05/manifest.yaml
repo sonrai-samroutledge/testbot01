@@ -27,3 +27,7 @@ fields:
       path: ["data", "Users", "items"]
       valueField: "srn"
       labelFields: ["name", "srn"]
+
+  - name: "text field"
+    required: false
+    type: "text"
