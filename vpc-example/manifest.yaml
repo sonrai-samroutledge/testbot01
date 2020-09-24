@@ -17,13 +17,13 @@ fields:
       valueField: "srn"
       labelFields: ["name", "srn"]
 
-  - name: "choose vpc"
-      required: true 
-      type: "select"
-      select:
-        search: "{  Network {    items {      srn      name    }  }}"
-        valueField: "srn"
-        labelFields: ["name", "srn"]
+  - name: "choose compute"
+    required: true 
+    type: "select"
+    select:
+      search: "{  Compute(where: {  }) {    items {      srn      name    }  }}"
+      valueField: "srn"
+      labelFields: ["name", "srn"]
 
   - name: "URL"
     required: true
