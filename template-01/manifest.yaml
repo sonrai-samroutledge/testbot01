@@ -1,5 +1,5 @@
 # title of ticket template is required
-title: "My Template"
+title: "Sam's Test Template"
 
 # The next fields are optional:
 description: "Descrpition of the template"
@@ -9,7 +9,7 @@ authorEmail: "albert.lockett@sonraisecurity.com"
 
 # one or more fields must be specified
 fields:
-  - name: "field1"
+  - name: "User"
     # if required field is not present, assume optional
     required: true 
 
