@@ -13,6 +13,7 @@ fields:
     # if required field is not present, assume optional
     required: true 
 
+    description: "Some cool description here!"
     # types can be text, select, checkbox (boolean)?
     type: "select"
 
